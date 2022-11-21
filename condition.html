@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Execute a condition</title>
+		<meta charset="UTF-8">
+	</head>
+	<body>
+		<h1>Execute a condition</h1>
+		<p>Display data one the console</p>
+
+		<script>
+			var name= prompt('Name: ');
+			var surname=prompt('Surname: ');
+			var age=prompt('Age: ');
+
+			if(confirm('Wyświetlić twoje dane?')) {
+				console.log(name+' ' + surname+ " "+age)
+			} else {
+				console.log('Przegrałeś');
+			}
+		</script>
+	</body>
+</html>
